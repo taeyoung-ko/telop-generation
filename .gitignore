@@ -1,0 +1,11 @@
+cat > .gitignore << 'EOF'
+# 모든 파일 무시
+*
+
+# 루트의 .py, .ipynb만 허용
+!/*.py
+!/*.ipynb
+
+# .gitignore 자체도 포함
+!.gitignore
+EOF
